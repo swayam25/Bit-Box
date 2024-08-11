@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Exo 2", sans-serif;
+    @apply bg-orange-dark;
+    @apply text-white text-xl;
+    @apply mx-5 md:mx-40;
+    @apply selection:bg-orange-bright selection:text-orange-dark;
+    @apply scroll-smooth antialiased;
+}
+
+svg {
+    @apply fill-white;
+}
+
+* {
+  scrollbar-color: #FFAF21 #110B03;
+}
+
+@layer utilities {
+    .remove-body-margin {
+        @apply -mx-5 md:-mx-40;
+    }
+
+    .hover-zoom {
+        @apply hover:scale-105;
+        @apply duration-200;
+        @apply ease-in-out;
+    }
+}
