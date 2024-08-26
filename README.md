@@ -56,7 +56,7 @@ Best of all, Bit Box is completely free, so you can use it without any restricti
         ```sh
         cd server
         source .venv/bin/activate
-        python -m uvicorn main:app --host localhost --port 2501 --reload
+        python -m uvicorn main:app --host localhost --port 2501
         ```
     - Frontend
         ```sh
