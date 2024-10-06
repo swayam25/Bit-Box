@@ -30,7 +30,7 @@ Best of all, Bit Box is completely free, so you can use it without any restricti
 
 1. Clone this repository
     ```sh
-    git clone <repository url> bit_box
+    git clone https://github.com/swayam25/Bit-Box bit_box
     cd bit_box
     ```
 
