@@ -7,7 +7,6 @@ body {
     font-family: "Exo 2", sans-serif;
     @apply bg-orange-dark;
     @apply text-white text-xl;
-    @apply mx-5 md:mx-40;
     @apply selection:bg-orange-bright selection:text-orange-dark;
     @apply scroll-smooth antialiased;
 }
@@ -21,10 +20,6 @@ svg {
 }
 
 @layer utilities {
-    .remove-body-margin {
-        @apply -mx-5 md:-mx-40;
-    }
-
     .hover-zoom {
         @apply hover:scale-105;
         @apply duration-200;

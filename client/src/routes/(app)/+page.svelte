@@ -1,13 +1,11 @@
 <!-- Main Menu -->
-<div class="flex flex-col md:flex-row md:justify-between gap-8 md:mt-32">
-    <div class="block mx-auto w-[250px] md:hidden">
-        <img src="/boxes.webp" alt="3D Boxes" />
-    </div>
-    <div class="text-center md:text-left pt-2 md:pt-0">
-        <h1 class="text-6xl md:text-8xl font-extrabold">Bit Box</h1>
+<div class="lg:mt-32">
+    <img src="/boxes.webp" alt="3D Boxes" class="mx-auto lg:mt-10 h-auto w-[250px] lg:w-[400px] lg:float-right" />
+    <div class="text-center lg:text-left pt-2 lg:pt-0">
+        <h1 class="text-6xl lg:text-8xl font-extrabold">Bit Box</h1>
         <p class="text-2xl">Elevate your coding skills with <span class="text-orange-bright">Bit Box</span></p>
         <br><br>
-        <p class="text-left text-gray-400 w-auto md:w-[1000px]">
+        <p class="text-gray-400">
             With Bit Box, you can quickly create & share snippets of code in multiple languages, including <span class="text-orange-bright">Python</span>, <span class="text-orange-bright">HTML</span>, <span class="text-orange-bright">CSS</span>, <span class="text-orange-bright">JavaScript</span> & more. Simply paste your code into <span class="text-orange-bright">Bit Box</span> & get a unique URL that you can share with others, so they can view, edit, & collaborate on your code.
             <br><br>
             Whether you're a developer, a designer, a student, or anyone else who works with code, <span class="text-orange-bright">Bit Box</span> makes it easy to share your work & get feedback from others. You can customize your code snippets with syntax highlighting, line numbering, & other formatting options, & you can even set an expiration date for your snippets to keep them secure.
@@ -15,18 +13,15 @@
             Best of all, <span class="text-orange-bright">Bit Box</span> is completely <span class="text-orange-bright">free</span>, so you can use it without any restrictions or limitations. Start sharing your code with the world today!
         </p>
     </div>
-    <div class="float-right pt-18 hidden md:block">
-        <img src="/boxes.webp" alt="3D Boxes" class="w-[500px]">
-    </div>
 </div>
 
-<!-- Features -->   
-<div id="features" class="text-left mt-20 md:mt-80">
-    <h1 class="text-5xl md:text-7xl font-extrabold text-center">Features</h1>
+<!-- Features -->
+<div id="features" class="text-left mt-20 lg:mt-80">
+    <h1 class="text-5xl lg:text-7xl font-extrabold text-center">Features</h1>
     <br><br>
-    <div class="flex flex-wrap flex-col md:flex-row justify-center gap-6">
+    <div class="flex flex-wrap flex-col lg:flex-row justify-center gap-6">
         <!-- Fast -->
-        <div class="bg-orange-rust text-left rounded-xl w-full md:w-[450px] hover-zoom">
+        <div class="bg-orange-rust text-left rounded-xl w-full lg:w-[450px] hover-zoom">
             <div class="pl-4 pt-6">
                 <div class="pr-4 inline-block float-left">
                     <svg class="h-9 object-cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -42,7 +37,7 @@
             </p>
         </div>
         <!-- Light Weight -->
-        <div class="bg-orange-rust text-left rounded-xl w-full md:w-[450px] hover-zoom">
+        <div class="bg-orange-rust text-left rounded-xl w-full lg:w-[450px] hover-zoom">
             <div class="pl-4 pt-6">
                 <div class="pr-4 inline-block float-left">
                     <svg class="h-9 object-cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -56,7 +51,7 @@
             </p>
         </div>
         <!-- Secure -->
-        <div class="bg-orange-rust text-left rounded-xl w-full md:w-[450px] hover-zoom">
+        <div class="bg-orange-rust text-left rounded-xl w-full lg:w-[450px] hover-zoom">
             <div class="pl-4 pt-6">
                 <div class="pr-4 inline-block float-left">
                     <svg class="h-9 object-cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -71,7 +66,7 @@
             </p>
         </div>
         <!-- Multi Platform -->
-        <div class="bg-orange-rust text-left rounded-xl w-full md:w-[450px] hover-zoom">
+        <div class="bg-orange-rust text-left rounded-xl w-full lg:w-[450px] hover-zoom">
             <div class="pl-4 pt-6">
                 <div class="pr-4 inline-block float-left">
                     <svg class="h-9 object-cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -85,7 +80,7 @@
             </p>
         </div>
         <!-- Free Forever -->
-        <div class="bg-orange-rust text-left rounded-xl w-full md:w-[450px] hover-zoom">
+        <div class="bg-orange-rust text-left rounded-xl w-full lg:w-[450px] hover-zoom">
             <div class="pl-4 pt-6">
                 <div class="pr-4 inline-block float-left">
                     <svg class="h-9 object-cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -101,18 +96,14 @@
     </div>
 </div>
 
-<!-- Shipping --> 
-<div class="text-left mt-20 md:mt-40">
-    <h1 class="text-4xl md:text-6xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-rust-lite via-amber-400 to-orange-lite">Tired Of Sharing Code By Normal text?</h1>
+<!-- Shipping -->
+<div class="text-left mt-20 lg:mt-40 mb-10">
+    <h1 class="text-4xl lg:text-6xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-rust-lite via-amber-400 to-orange-lite">Tired Of Sharing Code By Normal text?</h1>
     <br><br>
-    <div class="flex flex-col md:flex-row md:justify-between gap-8 items-start">
-        <div class="block mx-auto md:-mx-11 md:float-left w-[250px] md:w-[500px]">
-            <img src="/shipboxes.webp" alt="3D Shipping Boxes" />
-        </div>
-        <div>
-            <p class="text-gray-400 text-left md:text-right w-auto md:w-[1000px] md:mt-10">
-                <span class="text-orange-bright">Bitbox</span> is a project designed to <span class="text-orange-bright">simplify code sharing and collaboration</span> across multiple platforms. With Bitbox, <span class="text-orange-bright">developers can easily share their code snippets</span> with others and collaborate in real-time, without the need for complicated setup or tools. This feature enables developers to quickly and easily share code with colleagues, friends, or the wider development community, making it easier to get feedback, debug code, and solve problems faster. By streamlining the code sharing process, <span class="text-orange-bright">Bitbox saves developers time and effort</span>, making it an invaluable tool for any developer looking to improve their productivity and collaborate more efficiently.
-            </p>
-        </div>
+    <img src="/shipboxes.webp" alt="3D Shipping Boxes" class="mx-auto h-auto w-[250px] lg:w-[400px] lg:float-left" />
+    <div>
+        <p class="text-gray-400 text-left lg:text-right">
+            <span class="text-orange-bright">Bitbox</span> is a project designed to <span class="text-orange-bright">simplify code sharing and collaboration</span> across multiple platforms. With Bitbox, <span class="text-orange-bright">developers can easily share their code snippets</span> with others and collaborate in real-time, without the need for complicated setup or tools. This feature enables developers to quickly and easily share code with colleagues, friends, or the wider development community, making it easier to get feedback, debug code, and solve problems faster. By streamlining the code sharing process, <span class="text-orange-bright">Bitbox saves developers time and effort</span>, making it an invaluable tool for any developer looking to improve their productivity and collaborate more efficiently.
+        </p>
     </div>
 </div>

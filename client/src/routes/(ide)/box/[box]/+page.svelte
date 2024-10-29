@@ -7,7 +7,7 @@
     import Editor from "$lib/Editor.svelte";
 
     let boxKey = $page.params.box;
-    let isConnected = null;
+    let isConnected = false;
     let disabled = true;
     let boxName = "New Box";
     let boxCode = "";
@@ -157,7 +157,7 @@
     </div>
 {:else}
     <!-- Top Navbar -->
-    <nav class="bg-orange-rust sticky remove-body-margin h-14 w-screen rounded-b-xl md:rounded-b-none inset-x-0 top-0 flex flex-row items-center align-middle justify-center md:justify-start pl-20">
+    <nav class="bg-orange-rust sticky h-14 w-screen rounded-b-xl md:rounded-b-none inset-x-0 top-0 flex flex-row items-center align-middle justify-center md:justify-start pl-20">
         <div class="flex flex-row items-center py-2">
             <img src="/bitbox.webp" class="h-10 w-10" alt="Bit Box Logo" />
         </div>
