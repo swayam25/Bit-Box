@@ -6,25 +6,15 @@ Elevate your coding skills with Bit Box
 
 </div>
 
-## ❓️ What is Bit Box?
-
-With Bit Box, you can quickly create and share snippets of code in multiple languages, including Python, HTML, CSS, JavaScript and more. Simply paste your code into Bit Box and get a unique URL that you can share with others, so they can view, edit, and collaborate on your code.
-Whether you're a developer, a designer, a student, or anyone else who works with code, Bit Box makes it easy to share your work and get feedback from others. You can customize your code snippets with syntax highlighting, line numbering, and other formatting options, and you can even set an expiration date for your snippets to keep them secure.
-Best of all, Bit Box is completely free, so you can use it without any restrictions or limitations. Start sharing your code with the world today!
-
 ## 🎬️ Preview
 
-- **Welcome Page**
+- **Main Page**
 
-    ![Welcome Page](./assets/welcome_page.png)
+    ![Main Page](./assets/main.png)
 
-- **Features Section**
+- **Share Box**
 
-    ![Features Section](./assets/features_section.png)
-
-- **IDE Page**
-
-    ![IDE Page](./assets/ide_page.png)
+    ![Share Box](./assets/share.gif)
 
 ## 🚀 Installation
 
