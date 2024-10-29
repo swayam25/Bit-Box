@@ -130,6 +130,21 @@
         }
     }
 
+    // Add event listener for ctrl+s
+    function handleKeyDown(event) {
+        if (event.ctrlKey && event.key === 's') {
+            event.preventDefault();
+            downloadBox();
+        }
+    }
+
+    onMount(() => {
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    });
+
     // change theme
     function changeTheme() {
         let themes = ["dark", "light"];
