@@ -7,7 +7,7 @@
     import Editor from "$lib/Editor.svelte";
 
     let boxKey = $page.params.box;
-    let isConnected = false;
+    let isConnected = null;
     let disabled = true;
     let boxName = "New Box";
     let boxCode = "";
