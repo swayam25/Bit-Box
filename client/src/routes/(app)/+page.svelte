@@ -1,5 +1,5 @@
 <!-- Main Menu -->
-<div class="lg:mt-32">
+<div class="mt-5 lg:mt-20">
     <img src="/boxes.webp" alt="3D Boxes" class="mx-auto lg:mt-10 h-auto w-[250px] lg:w-[400px] lg:float-right" />
     <div class="text-center lg:text-left pt-2 lg:pt-0">
         <h1 class="text-6xl lg:text-8xl font-extrabold">Bit Box</h1>
@@ -16,7 +16,7 @@
 </div>
 
 <!-- Features -->
-<div id="features" class="text-left mt-20 lg:mt-80">
+<div id="features" class="text-left mt-20">
     <h1 class="text-5xl lg:text-7xl font-extrabold text-center">Features</h1>
     <br><br>
     <div class="flex flex-wrap flex-col lg:flex-row justify-center gap-6">
@@ -97,7 +97,7 @@
 </div>
 
 <!-- Shipping -->
-<div class="text-left mt-20 lg:mt-40 mb-10">
+<div class="text-left mt-20 mb-10">
     <h1 class="text-4xl lg:text-6xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-rust-lite via-amber-400 to-orange-lite">Tired Of Sharing Code By Normal text?</h1>
     <br><br>
     <img src="/shipboxes.webp" alt="3D Shipping Boxes" class="mx-auto h-auto w-[250px] lg:w-[400px] lg:float-left" />

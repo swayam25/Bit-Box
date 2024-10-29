@@ -41,7 +41,7 @@
         </div>
     </nav>
 
-    <div class="mx-5 lg:mx-40">
+    <div class="mx-5 lg:mx-28">
         <slot />
     </div>
 </div>
