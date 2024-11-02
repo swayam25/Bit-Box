@@ -26,6 +26,16 @@ Elevate your coding skills with Bit Box
 
 2. Configure the [`config.json`](./config.json) file
 
+   <details>
+
+    <summary>Configuration</summary>
+
+    - `server`: Backend server url
+
+    - `donateURL`: Donation url
+
+    </details>
+
 3. For backend
    - Install dependencies
         ```sh
