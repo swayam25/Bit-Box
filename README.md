@@ -55,7 +55,7 @@ Elevate your coding skills with Bit Box
         cd client
         npm i
         ```
-   - Start the server
+   - Start the client
         ```sh
         npm run dev -- --port 2500
         ```
