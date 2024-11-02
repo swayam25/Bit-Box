@@ -24,37 +24,59 @@ Elevate your coding skills with Bit Box
     cd bit_box
     ```
 
-2. Install dependencies
-    - Backend
+2. Configure the [`config.json`](./config.json) file
+
+3. For backend
+   - Install dependencies
         ```sh
         cd server
         python -m venv .venv
         source .venv/bin/activate
         pip install -r requirements.txt
         ```
+   - Start the server
+        ```sh
+        fastapi dev --port 2501
+        ```
 
-    - Frontend
+4. For frontend
+   - Install dependencies
         ```sh
         cd client
         npm i
         ```
-
-3. Configure the [`config.json`](./config.json) file
-
-4. Start the app
-    - Backend
+   - Start the server
         ```sh
-        cd server
-        source .venv/bin/activate
-        python -m uvicorn main:app --host localhost --port 2501
-        ```
-    - Frontend
-        ```sh
-        cd client
-        npm run dev -- --host --port 2500
+        npm run dev -- --port 2500
         ```
 
 5. URLs
     - Backend: `http://localhost:2501`
     - Frontend: `http://localhost:2500`
 
+## 🌐 For Production
+
+1. For backend
+   - Install dependencies (*Ignore if already done*)
+   - Start the server
+        ```sh
+        fastapi run --port 2501
+        ```
+
+2. For frontend
+    - Install dependencies (*Ignore if already done*)
+    - Build the client
+        ```sh
+        npm run build
+        ```
+    - Preview the client
+        ```sh
+        npm run preview -- --port 2500
+        ```
+
+3. URLs
+    - Backend: `http://localhost:2501`
+    - Frontend: `http://localhost:2500`
+
+> [!TIP]
+> Checkout the [deployment guide](https://svelte.dev/docs/kit/adapter-node) for more information.
