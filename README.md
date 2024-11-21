@@ -66,14 +66,16 @@ Elevate your coding skills with Bit Box
 
 ## 🌐 Production
 
-1. For backend
+1. Follow steps 1 & 2 from the [installation guide](#-installation). *Ignore if already done.*
+
+2. For backend
    - Install dependencies (*Ignore if already done*)
    - Start the server
         ```sh
         fastapi run --port 2501
         ```
 
-2. For frontend
+3. For frontend
     - Install dependencies (*Ignore if already done*)
     - Build the client
         ```sh
@@ -84,7 +86,7 @@ Elevate your coding skills with Bit Box
         npm run preview -- --port 2500
         ```
 
-3. URLs are same as in the [installation guide](#-installation).
+4. URLs are same as the [installation guide](#-installation).
 
 > [!TIP]
 > Checkout the [deployment guide](https://svelte.dev/docs/kit/adapter-node) for more information.
