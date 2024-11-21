@@ -64,7 +64,7 @@ Elevate your coding skills with Bit Box
     - Backend: `http://localhost:2501`
     - Frontend: `http://localhost:2500`
 
-## 🌐 For Production
+## 🌐 Production
 
 1. For backend
    - Install dependencies (*Ignore if already done*)
@@ -84,9 +84,7 @@ Elevate your coding skills with Bit Box
         npm run preview -- --port 2500
         ```
 
-3. URLs
-    - Backend: `http://localhost:2501`
-    - Frontend: `http://localhost:2500`
+3. URLs are same as in the [installation guide](#-installation).
 
 > [!TIP]
 > Checkout the [deployment guide](https://svelte.dev/docs/kit/adapter-node) for more information.
