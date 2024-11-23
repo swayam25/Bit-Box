@@ -60,10 +60,6 @@ Elevate your coding skills with Bit Box
         npm run dev -- --port 2500
         ```
 
-5. URLs
-    - Backend: `http://localhost:2501`
-    - Frontend: `http://localhost:2500`
-
 ## 🌐 Production
 
 1. Follow steps 1 & 2 from the [installation guide](#-installation). *Ignore if already done.*
@@ -85,8 +81,6 @@ Elevate your coding skills with Bit Box
         ```sh
         npm run preview -- --port 2500
         ```
-
-4. URLs are same as the [installation guide](#-installation).
 
 > [!TIP]
 > Checkout the [deployment guide](https://svelte.dev/docs/kit/adapter-node) for more information.
