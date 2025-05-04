@@ -6,6 +6,9 @@ Elevate your coding skills with Bit Box
 
 </div>
 
+> [!IMPORTANT]
+> This project is outdated and no longer maintained. Dependencies may be broken and the code may not work as expected.
+
 ## 🎬️ Preview
 
 - **Main Page**
